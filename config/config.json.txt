@@ -1,0 +1,18 @@
+{
+  "gcp": {
+    "project_id": "finance-project-dev",
+    "dataset_id": "finance_dataset",
+    "bucket_name": "finance-data-bucket",
+    "location": "asia-south1"
+  },
+  "bigquery": {
+    "table_name": "transaction"
+  },
+  "storage": {
+    "input_folder": "input/",
+    "output_folder": "output/"
+  },
+  "logging": {
+    "log_level": "INFO"
+  }
+}
